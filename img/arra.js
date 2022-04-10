@@ -46,3 +46,14 @@ var number5=[1,2,3,4,5]
 var number6=[6,7,8,9]
 result=number5.concat(number6)
 document.write("<br>"+result)
+
+var name5=["siyam","jishan","shakib","fahad"]
+document.write("<br>"+name5)
+var ne=name5.slice(3)
+document.write("<br>"+ne)
+ 
+var name6=["siyam","jishan","shakib","fahad","appo"]
+document.write("<br>"+name6)
+var n6=name6.slice(1,4)
+document.write("<br>"+n6)
+

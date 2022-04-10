@@ -1,14 +1,87 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <style>
+        .fb{
+            position: absolute;
+            top: 80px;
+            font-size: 50px;
+            font-weight: bolder;
+            color: blue;
+        }
+        .page{
+            margin: 20px;
+            height: 100vh;
+            background-color: gainsboro;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            width: 25%;
+            height: 45%;
+            text-align: center;
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px;
+            padding-top: 20px;
+        }
+        label{
+            width: 100%;
+             font-size: 20px;
+            font-weight: bold;
+        }
+        input{
+            padding: 5px;
+            width: 94%;
+            height: 40px;
+            margin-top: 20px;
+            background-color: transparent;
+            border: none;
+            outline: 0.5px gainsboro solid;
+            border-radius: 10px;
+        }
+        button{
+           
+      
+            width: 96%;
+            height: 50px;
+            margin-top: 20px;
+            background-color:blue;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+        .forgo{
+            margin-top: 20px;
+            color: blue;
+        }
+    </style>
 </head>
 <body>
- <marquee behavior="" direction=""></marquee>
-    <script src="work.js"></script>
-    <!-- <script src="even or odd.js"></script> -->
+    <div class="page">
+        <div class="fb">
+            <p>Facebook</p>
+        </div>
+        <form action="" method="">
+            <label for="">Log in to Facebook</label><br>
+            <input type="email"name="email"  placeholder="Email address or phone number"><br>
+            <input type="password"name="password"  placeholder="Password" ><br>
+            <button name="Login">Log In</button><br>
+            <div class="forgo">
+                    <span>Forgotten account? · Sign up for Facebook</span>
+            </div>
+
+        </form>
+    </div>
+
+   
 </body>
 </html>

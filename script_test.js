@@ -175,25 +175,23 @@ for(var i=0 ;i<3; i++){
     document.querySelectorAll(".a")[i].addEventListener("click", function(){
         var text= this.innerHTML;
       console.log(text);
+      var audioA=new Audio("a.mp3");
+      var audioB=new Audio("b.mp3");
+      var audioC=new Audio("c.mp3");
       switch(text){
-        case "a":
-           
-            var audio=new Audio("a.mp3");
-           if(!audio.paused){
-               audio.pause();
-           }else{
-                audio.play();
-           }
+        case "a":  
+        audioA.pause() 
+        audioA.play() 
            break;
        case "b":
-           var audio=new Audio("b.mp3");
-           audio.play();
-           audio.pause();
+        console.log(audioB);
+        //    audio.play();
+        //    audio.pause();
            break;
        case "c":
-               var audio=new Audio("c.mp3");
-               audio.play();
-               audio.pause();
+        console.log(audioC);
+            //    audio.play();
+            //    audio.pause();
                break;
 }
     })
